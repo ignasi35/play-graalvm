@@ -1,0 +1,824 @@
+[info] Loading settings for project global-plugins from sbt-updates.sbt,plugins.sbt,sbt-eclipse.sbt ...
+[info] Loading global plugins from /Users/marcospereira/.sbt/1.0/plugins
+[info] Loading settings for project play-graalvm-build from plugins.sbt,metals.sbt ...
+[info] Loading project definition from /Users/marcospereira/Lightbend/playframework/play-graalvm/project
+[info] Loading settings for project root from build.sbt ...
+[info] Set current project to play-graalvm (in build file:/Users/marcospereira/Lightbend/playframework/play-graalvm/)
+[success] Total time: 0 s, completed Jan. 14, 2020, 5:04:27 p.m.
+[info] Wrote /Users/marcospereira/Lightbend/playframework/play-graalvm/target/scala-2.13/play-graalvm_2.13-1.0-SNAPSHOT.pom
+[info] Main Scala API documentation to /Users/marcospereira/Lightbend/playframework/play-graalvm/target/scala-2.13/api...
+[info] Compiling 8 Scala sources and 1 Java source to /Users/marcospereira/Lightbend/playframework/play-graalvm/target/scala-2.13/classes ...
+model contains 19 documentable templates
+[info] Main Scala API documentation successful.
+[info] Done compiling.
+[info] Build on Server(pid: 75870, port: 54485)
+[info] SendBuildRequest [
+[info] -task=com.oracle.svm.hosted.NativeImageGeneratorRunner
+[info] -imagecp
+[info] /Users/marcospereira/.sdkman/candidates/java/19.3.0.2.r11-grl/lib/svm/builder/llvm-wrapper-shadowed.jar:/Users/marcospereira/.sdkman/candidates/java/19.3.0.2.r11-grl/lib/svm/builder/svm.jar:/Users/marcospereira/.sdkman/candidates/java/19.3.0.2.r11-grl/lib/svm/builder/objectfile.jar:/Users/marcospereira/.sdkman/candidates/java/19.3.0.2.r11-grl/lib/svm/builder/graal-llvm.jar:/Users/marcospereira/.sdkman/candidates/java/19.3.0.2.r11-grl/lib/svm/builder/llvm-platform-specific-shadowed.jar:/Users/marcospereira/.sdkman/candidates/java/19.3.0.2.r11-grl/lib/svm/builder/javacpp-shadowed.jar:/Users/marcospereira/.sdkman/candidates/java/19.3.0.2.r11-grl/lib/svm/builder/svm-llvm.jar:/Users/marcospereira/.sdkman/candidates/java/19.3.0.2.r11-grl/lib/svm/builder/pointsto.jar:/Users/marcospereira/.sdkman/candidates/java/19.3.0.2.r11-grl/lib/svm/library-support.jar:/Users/marcospereira/Lightbend/playframework/play-graalvm/target/scala-2.13/play-graalvm_2.13-1.0-SNAPSHOT-sans-externalized.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.1/akka-stream_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.13/2.3.3/macros_2.13-2.3.3.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.0/play_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.1/jackson-module-parameter-names-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.0/play-streams_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.1/akka-protobuf-v3_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.1/jackson-module-paranamer-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.11/akka-http-core_2.13-10.1.11.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.0/play-server_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.1/akka-actor-typed_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.0/play-exceptions-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.1/akka-slf4j_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.0/build-link-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.0/play-akka-http-server_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.1/ssl-config-core_2.13-0.4.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.1/jackson-module-scala_2.13-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.0/play-logback_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.1/play-functional_2.13-2.8.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.1/akka-actor_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.1/akka-serialization-jackson_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.0/filters-helpers_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.1/jackson-dataformat-cbor-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.1/play-json_2.13-2.8.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.11/akka-parsing_2.13-10.1.11.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/marcospereira/Lightbend/playframework/play-graalvm/target/scala-2.13/play-graalvm_2.13-1.0-SNAPSHOT-web-assets.jar:/Users/marcospereira/Lightbend/playframework/play-graalvm/target/scala-2.13/play-graalvm_2.13-1.0-SNAPSHOT.jar
+[info] -H:Path=/Users/marcospereira/Lightbend/playframework/play-graalvm/target/graalvm-native-image
+[info] -H:Name=play-graalvm
+[info] -H:FallbackThreshold=0
+[info] -H:+ReportExceptionStackTraces
+[info] -H:Log=registerResource:verbose
+[info] -H:CLibraryPath=/Users/marcospereira/.sdkman/candidates/java/19.3.0.2.r11-grl/lib/svm/clibraries/darwin-amd64
+[info] -H:ResourceConfigurationFiles=/Users/marcospereira/Lightbend/playframework/play-graalvm/conf/graal/resource-config.json
+[info] -H:Class=play.core.server.ProdServerStart
+[info] ]
+[info] [play-graalvm:75870]    classlist:   6,610.49 ms
+[info] [play-graalvm:75870]        (cap):   1,705.43 ms
+[info] [play-graalvm:75870]        setup:   1,912.66 ms
+[error] [thread:879] scope: ForkJoinPool-99-worker-19
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: version.conf
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: reference.conf
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: reference.conf
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: reference.conf
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: reference.conf
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: reference.conf
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: reference.conf
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: reference.conf
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: reference.conf
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: reference.conf
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: reference.conf
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: logback.xml
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: application.conf
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: library.properties
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: akka-http-version.conf
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: org/slf4j/impl/StaticLoggerBinder.class
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ResourcesFeature: registerResource: META-INF/MANIFEST.MF
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   ServiceLoaderFeature: registerResource: META-INF/services/java.nio.file.spi.FileSystemProvider
+[error]   [thread:879] scope: ForkJoinPool-99-worker-19.registerResource
+[error]   Resources have been added by ServiceLoaderFeature. Automatic registration can be disabled with -H:-UseServiceLoaderFeature
+[error] [thread:885] scope: ForkJoinPool-97-worker-23
+[error]   [thread:885] scope: ForkJoinPool-97-worker-23.ClosedWorldAnalysis
+[error]   Context: StructuredGraph:720871{AnalysisMethod<GafferUtil.runGafferConfiguratorOn -> HotSpotMethod<GafferUtil.runGafferConfiguratorOn(LoggerContext, Object, URL)>>}
+[error]   Context: AnalysisMethod<GafferUtil.runGafferConfiguratorOn -> HotSpotMethod<GafferUtil.runGafferConfiguratorOn(LoggerContext, Object, URL)>>
+[error]     [thread:885] scope: ForkJoinPool-97-worker-23.ClosedWorldAnalysis.AnalysisGraphBuilderPhase
+[error]     Exception raised in scope ForkJoinPool-97-worker-23.ClosedWorldAnalysis.AnalysisGraphBuilderPhase: org.graalvm.compiler.java.BytecodeParser$BytecodeParserError: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: ch.qos.logback.classic.gaffer.GafferConfigurator. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error]     	at parsing ch.qos.logback.classic.gaffer.GafferUtil.runGafferConfiguratorOn(GafferUtil.java:43)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.throwParserError(BytecodeParser.java:2475)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.throwParserError(SharedGraphBuilderPhase.java:93)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.iterateBytecodesForBlock(BytecodeParser.java:3291)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.processBlock(BytecodeParser.java:3093)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.build(BytecodeParser.java:977)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.buildRootMethod(BytecodeParser.java:871)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.GraphBuilderPhase$Instance.run(GraphBuilderPhase.java:84)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.run(Phase.java:49)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.BasePhase.apply(BasePhase.java:197)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.apply(Phase.java:42)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.apply(Phase.java:38)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlowBuilder.parse(MethodTypeFlowBuilder.java:221)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlowBuilder.apply(MethodTypeFlowBuilder.java:340)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.doParse(MethodTypeFlow.java:310)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.ensureParsed(MethodTypeFlow.java:300)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.addContext(MethodTypeFlow.java:107)
+[error]     	at com.oracle.graal.pointsto.flow.StaticInvokeTypeFlow.update(InvokeTypeFlow.java:346)
+[error]     	at com.oracle.graal.pointsto.BigBang$2.run(BigBang.java:511)
+[error]     	at com.oracle.graal.pointsto.util.CompletionExecutor.lambda$execute$0(CompletionExecutor.java:171)
+[error]     	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+[error]     	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[error]     	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+[error]     Caused by: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: ch.qos.logback.classic.gaffer.GafferConfigurator. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.reportUnresolvedElement(SharedGraphBuilderPhase.java:239)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.handleUnresolvedType(SharedGraphBuilderPhase.java:194)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.handleUnresolvedMethod(SharedGraphBuilderPhase.java:220)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.handleUnresolvedInvoke(SharedGraphBuilderPhase.java:183)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.genInvokeVirtual(BytecodeParser.java:1617)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.processBytecode(BytecodeParser.java:5168)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.iterateBytecodesForBlock(BytecodeParser.java:3286)
+[error]     	... 22 more
+[error]     
+[error]     Context obj com.oracle.svm.hosted.phases.AnalysisGraphBuilderPhase@73cc9a00
+[error]     Context obj StructuredGraph:720871{AnalysisMethod<GafferUtil.runGafferConfiguratorOn -> HotSpotMethod<GafferUtil.runGafferConfiguratorOn(LoggerContext, Object, URL)>>}
+[error]     Context obj AnalysisMethod<GafferUtil.runGafferConfiguratorOn -> HotSpotMethod<GafferUtil.runGafferConfiguratorOn(LoggerContext, Object, URL)>>
+[error]     Context obj com.oracle.svm.hosted.analysis.flow.SVMMethodTypeFlowBuilder@19f8d9e3
+[error] [thread:886] scope: ForkJoinPool-97-worker-17
+[error]   [thread:886] scope: ForkJoinPool-97-worker-17.ClosedWorldAnalysis
+[error]   Context: StructuredGraph:722217{AnalysisMethod<PropertyEvalScriptBuilder.build -> HotSpotMethod<PropertyEvalScriptBuilder.build(String)>>}
+[error]   Context: AnalysisMethod<PropertyEvalScriptBuilder.build -> HotSpotMethod<PropertyEvalScriptBuilder.build(String)>>
+[error]     [thread:886] scope: ForkJoinPool-97-worker-17.ClosedWorldAnalysis.AnalysisGraphBuilderPhase
+[error]     Exception raised in scope ForkJoinPool-97-worker-17.ClosedWorldAnalysis.AnalysisGraphBuilderPhase: org.graalvm.compiler.java.BytecodeParser$BytecodeParserError: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: org.codehaus.janino.ClassBodyEvaluator. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error]     	at parsing ch.qos.logback.core.joran.conditional.PropertyEvalScriptBuilder.build(PropertyEvalScriptBuilder.java:43)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.throwParserError(BytecodeParser.java:2475)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.throwParserError(SharedGraphBuilderPhase.java:93)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.iterateBytecodesForBlock(BytecodeParser.java:3291)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.processBlock(BytecodeParser.java:3093)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.build(BytecodeParser.java:977)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.buildRootMethod(BytecodeParser.java:871)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.GraphBuilderPhase$Instance.run(GraphBuilderPhase.java:84)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.run(Phase.java:49)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.BasePhase.apply(BasePhase.java:197)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.apply(Phase.java:42)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.apply(Phase.java:38)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlowBuilder.parse(MethodTypeFlowBuilder.java:221)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlowBuilder.apply(MethodTypeFlowBuilder.java:340)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.doParse(MethodTypeFlow.java:310)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.ensureParsed(MethodTypeFlow.java:300)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.addContext(MethodTypeFlow.java:107)
+[error]     	at com.oracle.graal.pointsto.flow.SpecialInvokeTypeFlow.onObservedUpdate(InvokeTypeFlow.java:421)
+[error]     	at com.oracle.graal.pointsto.flow.TypeFlow.notifyObservers(TypeFlow.java:343)
+[error]     	at com.oracle.graal.pointsto.flow.TypeFlow.update(TypeFlow.java:385)
+[error]     	at com.oracle.graal.pointsto.flow.SourceTypeFlowBase.update(SourceTypeFlowBase.java:121)
+[error]     	at com.oracle.graal.pointsto.BigBang$2.run(BigBang.java:511)
+[error]     	at com.oracle.graal.pointsto.util.CompletionExecutor.lambda$execute$0(CompletionExecutor.java:171)
+[error]     	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+[error]     	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[error]     	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+[error]     Caused by: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: org.codehaus.janino.ClassBodyEvaluator. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.reportUnresolvedElement(SharedGraphBuilderPhase.java:239)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.handleUnresolvedType(SharedGraphBuilderPhase.java:194)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.handleUnresolvedNewInstance(SharedGraphBuilderPhase.java:138)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.genNewInstance(BytecodeParser.java:4383)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.genNewInstance(BytecodeParser.java:4376)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.processBytecode(BytecodeParser.java:5173)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.iterateBytecodesForBlock(BytecodeParser.java:3286)
+[error]     	... 25 more
+[error]     
+[error]     Context obj com.oracle.svm.hosted.phases.AnalysisGraphBuilderPhase@6980edb4
+[error]     Context obj StructuredGraph:722217{AnalysisMethod<PropertyEvalScriptBuilder.build -> HotSpotMethod<PropertyEvalScriptBuilder.build(String)>>}
+[error]     Context obj AnalysisMethod<PropertyEvalScriptBuilder.build -> HotSpotMethod<PropertyEvalScriptBuilder.build(String)>>
+[error]     Context obj com.oracle.svm.hosted.analysis.flow.SVMMethodTypeFlowBuilder@79f3d4bd
+[error] [thread:886] scope: ForkJoinPool-97-worker-17
+[error]   [thread:886] scope: ForkJoinPool-97-worker-17.ClosedWorldAnalysis
+[error]   Context: StructuredGraph:722263{AnalysisMethod<PackagingDataCalculator.populateFrames -> HotSpotMethod<PackagingDataCalculator.populateFrames(StackTraceElementProxy[])>>}
+[error]   Context: AnalysisMethod<PackagingDataCalculator.populateFrames -> HotSpotMethod<PackagingDataCalculator.populateFrames(StackTraceElementProxy[])>>
+[error]     [thread:886] scope: ForkJoinPool-97-worker-17.ClosedWorldAnalysis.AnalysisGraphBuilderPhase
+[error]     Exception raised in scope ForkJoinPool-97-worker-17.ClosedWorldAnalysis.AnalysisGraphBuilderPhase: org.graalvm.compiler.java.BytecodeParser$BytecodeParserError: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: sun.reflect.Reflection. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error]     	at parsing ch.qos.logback.classic.spi.PackagingDataCalculator.populateFrames(PackagingDataCalculator.java:85)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.throwParserError(BytecodeParser.java:2475)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.throwParserError(SharedGraphBuilderPhase.java:93)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.iterateBytecodesForBlock(BytecodeParser.java:3291)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.processBlock(BytecodeParser.java:3093)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.build(BytecodeParser.java:977)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.buildRootMethod(BytecodeParser.java:871)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.GraphBuilderPhase$Instance.run(GraphBuilderPhase.java:84)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.run(Phase.java:49)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.BasePhase.apply(BasePhase.java:197)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.apply(Phase.java:42)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.apply(Phase.java:38)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlowBuilder.parse(MethodTypeFlowBuilder.java:221)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlowBuilder.apply(MethodTypeFlowBuilder.java:340)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.doParse(MethodTypeFlow.java:310)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.ensureParsed(MethodTypeFlow.java:300)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.addContext(MethodTypeFlow.java:107)
+[error]     	at com.oracle.graal.pointsto.DefaultAnalysisPolicy$DefaultVirtualInvokeTypeFlow.onObservedUpdate(DefaultAnalysisPolicy.java:191)
+[error]     	at com.oracle.graal.pointsto.flow.TypeFlow.notifyObservers(TypeFlow.java:343)
+[error]     	at com.oracle.graal.pointsto.flow.TypeFlow.update(TypeFlow.java:385)
+[error]     	at com.oracle.graal.pointsto.BigBang$2.run(BigBang.java:511)
+[error]     	at com.oracle.graal.pointsto.util.CompletionExecutor.lambda$execute$0(CompletionExecutor.java:171)
+[error]     	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+[error]     	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[error]     	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+[error]     Caused by: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: sun.reflect.Reflection. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.reportUnresolvedElement(SharedGraphBuilderPhase.java:239)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.handleUnresolvedType(SharedGraphBuilderPhase.java:194)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.handleUnresolvedMethod(SharedGraphBuilderPhase.java:220)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.handleUnresolvedInvoke(SharedGraphBuilderPhase.java:183)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.genInvokeStatic(BytecodeParser.java:1576)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.genInvokeStatic(BytecodeParser.java:1551)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.processBytecode(BytecodeParser.java:5170)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.iterateBytecodesForBlock(BytecodeParser.java:3286)
+[error]     	... 24 more
+[error]     
+[error]     Context obj com.oracle.svm.hosted.phases.AnalysisGraphBuilderPhase@2823cbd0
+[error]     Context obj StructuredGraph:722263{AnalysisMethod<PackagingDataCalculator.populateFrames -> HotSpotMethod<PackagingDataCalculator.populateFrames(StackTraceElementProxy[])>>}
+[error]     Context obj AnalysisMethod<PackagingDataCalculator.populateFrames -> HotSpotMethod<PackagingDataCalculator.populateFrames(StackTraceElementProxy[])>>
+[error]     Context obj com.oracle.svm.hosted.analysis.flow.SVMMethodTypeFlowBuilder@28ae2ca6
+[error] [thread:892] scope: ForkJoinPool-97-worker-7
+[error]   [thread:892] scope: ForkJoinPool-97-worker-7.ClosedWorldAnalysis
+[error]   Context: StructuredGraph:723282{AnalysisMethod<PackagingDataCalculator.<clinit> -> HotSpotMethod<PackagingDataCalculator.<clinit>()>>}
+[error]   Context: AnalysisMethod<PackagingDataCalculator.<clinit> -> HotSpotMethod<PackagingDataCalculator.<clinit>()>>
+[error]     [thread:892] scope: ForkJoinPool-97-worker-7.ClosedWorldAnalysis.AnalysisGraphBuilderPhase
+[error]     Exception raised in scope ForkJoinPool-97-worker-7.ClosedWorldAnalysis.AnalysisGraphBuilderPhase: org.graalvm.compiler.java.BytecodeParser$BytecodeParserError: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: sun.reflect.Reflection. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error]     	at parsing ch.qos.logback.classic.spi.PackagingDataCalculator.<clinit>(PackagingDataCalculator.java:45)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.throwParserError(BytecodeParser.java:2475)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.throwParserError(SharedGraphBuilderPhase.java:93)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.iterateBytecodesForBlock(BytecodeParser.java:3291)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.processBlock(BytecodeParser.java:3093)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.build(BytecodeParser.java:977)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.buildRootMethod(BytecodeParser.java:871)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.GraphBuilderPhase$Instance.run(GraphBuilderPhase.java:84)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.run(Phase.java:49)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.BasePhase.apply(BasePhase.java:197)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.apply(Phase.java:42)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.apply(Phase.java:38)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlowBuilder.parse(MethodTypeFlowBuilder.java:221)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlowBuilder.apply(MethodTypeFlowBuilder.java:340)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.doParse(MethodTypeFlow.java:310)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.ensureParsed(MethodTypeFlow.java:300)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.addContext(MethodTypeFlow.java:107)
+[error]     	at com.oracle.graal.pointsto.BigBang$1.run(BigBang.java:385)
+[error]     	at com.oracle.graal.pointsto.util.CompletionExecutor.lambda$execute$0(CompletionExecutor.java:171)
+[error]     	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+[error]     	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[error]     	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+[error]     Caused by: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: sun.reflect.Reflection. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.reportUnresolvedElement(SharedGraphBuilderPhase.java:239)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.handleUnresolvedType(SharedGraphBuilderPhase.java:194)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.handleUnresolvedMethod(SharedGraphBuilderPhase.java:220)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.handleUnresolvedInvoke(SharedGraphBuilderPhase.java:183)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.genInvokeStatic(BytecodeParser.java:1576)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.genInvokeStatic(BytecodeParser.java:1551)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.processBytecode(BytecodeParser.java:5170)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.iterateBytecodesForBlock(BytecodeParser.java:3286)
+[error]     	... 21 more
+[error]     
+[error]     Context obj com.oracle.svm.hosted.phases.AnalysisGraphBuilderPhase@792efe3e
+[error]     Context obj StructuredGraph:723282{AnalysisMethod<PackagingDataCalculator.<clinit> -> HotSpotMethod<PackagingDataCalculator.<clinit>()>>}
+[error]     Context obj AnalysisMethod<PackagingDataCalculator.<clinit> -> HotSpotMethod<PackagingDataCalculator.<clinit>()>>
+[error]     Context obj com.oracle.svm.hosted.analysis.flow.SVMMethodTypeFlowBuilder@3cede1cf
+[error] [thread:888] scope: ForkJoinPool-97-worker-3
+[error]   [thread:888] scope: ForkJoinPool-97-worker-3.ClosedWorldAnalysis
+[error]   Context: StructuredGraph:723297{AnalysisMethod<MDC.bwCompatibleGetMDCAdapterFromBinder -> HotSpotMethod<MDC.bwCompatibleGetMDCAdapterFromBinder()>>}
+[error]   Context: AnalysisMethod<MDC.bwCompatibleGetMDCAdapterFromBinder -> HotSpotMethod<MDC.bwCompatibleGetMDCAdapterFromBinder()>>
+[error]     [thread:888] scope: ForkJoinPool-97-worker-3.ClosedWorldAnalysis.AnalysisGraphBuilderPhase
+[error]     Exception raised in scope ForkJoinPool-97-worker-3.ClosedWorldAnalysis.AnalysisGraphBuilderPhase: org.graalvm.compiler.java.BytecodeParser$BytecodeParserError: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved method during parsing: org.slf4j.impl.StaticMDCBinder.getSingleton(). To diagnose the issue you can use the --allow-incomplete-classpath option. The missing method is then reported at run time when it is accessed the first time.
+[error]     	at parsing org.slf4j.MDC.bwCompatibleGetMDCAdapterFromBinder(MDC.java:99)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.throwParserError(BytecodeParser.java:2475)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.throwParserError(SharedGraphBuilderPhase.java:93)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.iterateBytecodesForBlock(BytecodeParser.java:3291)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.processBlock(BytecodeParser.java:3093)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.build(BytecodeParser.java:977)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.buildRootMethod(BytecodeParser.java:871)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.GraphBuilderPhase$Instance.run(GraphBuilderPhase.java:84)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.run(Phase.java:49)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.BasePhase.apply(BasePhase.java:197)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.apply(Phase.java:42)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.apply(Phase.java:38)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlowBuilder.parse(MethodTypeFlowBuilder.java:221)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlowBuilder.apply(MethodTypeFlowBuilder.java:340)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.doParse(MethodTypeFlow.java:310)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.ensureParsed(MethodTypeFlow.java:300)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.addContext(MethodTypeFlow.java:107)
+[error]     	at com.oracle.graal.pointsto.flow.StaticInvokeTypeFlow.update(InvokeTypeFlow.java:346)
+[error]     	at com.oracle.graal.pointsto.BigBang$2.run(BigBang.java:511)
+[error]     	at com.oracle.graal.pointsto.util.CompletionExecutor.lambda$execute$0(CompletionExecutor.java:171)
+[error]     	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+[error]     	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[error]     	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+[error]     Caused by: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved method during parsing: org.slf4j.impl.StaticMDCBinder.getSingleton(). To diagnose the issue you can use the --allow-incomplete-classpath option. The missing method is then reported at run time when it is accessed the first time.
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.reportUnresolvedElement(SharedGraphBuilderPhase.java:239)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.handleUnresolvedMethod(SharedGraphBuilderPhase.java:229)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.handleUnresolvedInvoke(SharedGraphBuilderPhase.java:183)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.genInvokeStatic(BytecodeParser.java:1576)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.genInvokeStatic(BytecodeParser.java:1551)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.processBytecode(BytecodeParser.java:5170)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.iterateBytecodesForBlock(BytecodeParser.java:3286)
+[error]     	... 22 more
+[error]     
+[error]     Context obj com.oracle.svm.hosted.phases.AnalysisGraphBuilderPhase@61c0efd
+[error]     Context obj StructuredGraph:723297{AnalysisMethod<MDC.bwCompatibleGetMDCAdapterFromBinder -> HotSpotMethod<MDC.bwCompatibleGetMDCAdapterFromBinder()>>}
+[error]     Context obj AnalysisMethod<MDC.bwCompatibleGetMDCAdapterFromBinder -> HotSpotMethod<MDC.bwCompatibleGetMDCAdapterFromBinder()>>
+[error]     Context obj com.oracle.svm.hosted.analysis.flow.SVMMethodTypeFlowBuilder@194e8374
+[error] [thread:892] scope: ForkJoinPool-97-worker-7
+[error]   [thread:892] scope: ForkJoinPool-97-worker-7.ClosedWorldAnalysis
+[error]   Context: StructuredGraph:723481{AnalysisMethod<MethodHandles$Lookup.findStatic -> HotSpotMethod<MethodHandles$Lookup.findStatic(Class, String, MethodType)>>}
+[error]   Context: AnalysisMethod<MethodHandles$Lookup.findStatic -> HotSpotMethod<MethodHandles$Lookup.findStatic(Class, String, MethodType)>>
+[error]     [thread:892] scope: ForkJoinPool-97-worker-7.ClosedWorldAnalysis.AnalysisGraphBuilderPhase
+[error]     Exception raised in scope ForkJoinPool-97-worker-7.ClosedWorldAnalysis.AnalysisGraphBuilderPhase: org.graalvm.compiler.java.BytecodeParser$BytecodeParserError: com.oracle.svm.hosted.substitute.DeletedElementException: Unsupported type java.lang.invoke.MemberName is reachable: All methods from java.lang.invoke should have been replaced during image building.
+[error]     To diagnose the issue, you can add the option --report-unsupported-elements-at-runtime. The unsupported element is then reported at run time when it is accessed the first time.
+[error]     	at parsing java.lang.invoke.MethodHandles$Lookup.findStatic(MethodHandles.java:1102)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.throwParserError(BytecodeParser.java:2475)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.throwParserError(SharedGraphBuilderPhase.java:93)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.iterateBytecodesForBlock(BytecodeParser.java:3291)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.processBlock(BytecodeParser.java:3093)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.build(BytecodeParser.java:977)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.buildRootMethod(BytecodeParser.java:871)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.GraphBuilderPhase$Instance.run(GraphBuilderPhase.java:84)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.run(Phase.java:49)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.BasePhase.apply(BasePhase.java:197)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.apply(Phase.java:42)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.apply(Phase.java:38)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlowBuilder.parse(MethodTypeFlowBuilder.java:221)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlowBuilder.apply(MethodTypeFlowBuilder.java:340)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.doParse(MethodTypeFlow.java:310)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.ensureParsed(MethodTypeFlow.java:300)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.addContext(MethodTypeFlow.java:107)
+[error]     	at com.oracle.graal.pointsto.flow.SpecialInvokeTypeFlow.onObservedUpdate(InvokeTypeFlow.java:421)
+[error]     	at com.oracle.graal.pointsto.flow.TypeFlow.notifyObservers(TypeFlow.java:343)
+[error]     	at com.oracle.graal.pointsto.flow.TypeFlow.update(TypeFlow.java:385)
+[error]     	at com.oracle.graal.pointsto.BigBang$2.run(BigBang.java:511)
+[error]     	at com.oracle.graal.pointsto.util.CompletionExecutor.lambda$execute$0(CompletionExecutor.java:171)
+[error]     	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+[error]     	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[error]     	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+[error]     Caused by: com.oracle.svm.hosted.substitute.DeletedElementException: Unsupported type java.lang.invoke.MemberName is reachable: All methods from java.lang.invoke should have been replaced during image building.
+[error]     To diagnose the issue, you can add the option --report-unsupported-elements-at-runtime. The unsupported element is then reported at run time when it is accessed the first time.
+[error]     	at com.oracle.svm.hosted.substitute.AnnotationSubstitutionProcessor.lookup(AnnotationSubstitutionProcessor.java:115)
+[error]     	at com.oracle.graal.pointsto.infrastructure.SubstitutionProcessor$ChainedSubstitutionProcessor.lookup(SubstitutionProcessor.java:113)
+[error]     	at com.oracle.graal.pointsto.infrastructure.SubstitutionProcessor$ChainedSubstitutionProcessor.lookup(SubstitutionProcessor.java:113)
+[error]     	at com.oracle.graal.pointsto.meta.AnalysisUniverse.lookupAllowUnresolved(AnalysisUniverse.java:202)
+[error]     	at com.oracle.graal.pointsto.meta.AnalysisUniverse.lookup(AnalysisUniverse.java:182)
+[error]     	at com.oracle.graal.pointsto.meta.AnalysisUniverse.lookup(AnalysisUniverse.java:75)
+[error]     	at com.oracle.graal.pointsto.infrastructure.WrappedSignature.getReturnType(WrappedSignature.java:75)
+[error]     	at com.oracle.graal.pointsto.flow.MethodFlowsGraph.<init>(MethodFlowsGraph.java:113)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.<init>(MethodTypeFlow.java:75)
+[error]     	at com.oracle.graal.pointsto.meta.AnalysisMethod.<init>(AnalysisMethod.java:134)
+[error]     	at com.oracle.graal.pointsto.meta.AnalysisUniverse.createMethod(AnalysisUniverse.java:412)
+[error]     	at com.oracle.graal.pointsto.meta.AnalysisUniverse.lookupAllowUnresolved(AnalysisUniverse.java:400)
+[error]     	at com.oracle.graal.pointsto.infrastructure.WrappedConstantPool.lookupMethod(WrappedConstantPool.java:116)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.lookupMethod(BytecodeParser.java:4168)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.genInvokeVirtual(BytecodeParser.java:1613)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.processBytecode(BytecodeParser.java:5168)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.iterateBytecodesForBlock(BytecodeParser.java:3286)
+[error]     	... 24 more
+[error]     
+[error]     Context obj com.oracle.svm.hosted.phases.AnalysisGraphBuilderPhase@3c62a4be
+[error]     Context obj StructuredGraph:723481{AnalysisMethod<MethodHandles$Lookup.findStatic -> HotSpotMethod<MethodHandles$Lookup.findStatic(Class, String, MethodType)>>}
+[error]     Context obj AnalysisMethod<MethodHandles$Lookup.findStatic -> HotSpotMethod<MethodHandles$Lookup.findStatic(Class, String, MethodType)>>
+[error]     Context obj com.oracle.svm.hosted.analysis.flow.SVMMethodTypeFlowBuilder@25b67b74
+[error] [thread:892] scope: ForkJoinPool-97-worker-7
+[error]   [thread:892] scope: ForkJoinPool-97-worker-7.ClosedWorldAnalysis
+[error]   Context: StructuredGraph:723489{AnalysisMethod<MethodHandles$Lookup.findVirtual -> HotSpotMethod<MethodHandles$Lookup.findVirtual(Class, String, MethodType)>>}
+[error]   Context: AnalysisMethod<MethodHandles$Lookup.findVirtual -> HotSpotMethod<MethodHandles$Lookup.findVirtual(Class, String, MethodType)>>
+[error]     [thread:892] scope: ForkJoinPool-97-worker-7.ClosedWorldAnalysis.AnalysisGraphBuilderPhase
+[error]     Exception raised in scope ForkJoinPool-97-worker-7.ClosedWorldAnalysis.AnalysisGraphBuilderPhase: org.graalvm.compiler.java.BytecodeParser$BytecodeParserError: com.oracle.svm.hosted.substitute.DeletedElementException: Unsupported type java.lang.invoke.MemberName is reachable: All methods from java.lang.invoke should have been replaced during image building.
+[error]     To diagnose the issue, you can add the option --report-unsupported-elements-at-runtime. The unsupported element is then reported at run time when it is accessed the first time.
+[error]     	at parsing java.lang.invoke.MethodHandles$Lookup.findVirtual(MethodHandles.java:1194)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.throwParserError(BytecodeParser.java:2475)
+[error]     	at com.oracle.svm.hosted.phases.SharedGraphBuilderPhase$SharedBytecodeParser.throwParserError(SharedGraphBuilderPhase.java:93)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.iterateBytecodesForBlock(BytecodeParser.java:3291)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.processBlock(BytecodeParser.java:3093)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.build(BytecodeParser.java:977)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.buildRootMethod(BytecodeParser.java:871)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.GraphBuilderPhase$Instance.run(GraphBuilderPhase.java:84)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.run(Phase.java:49)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.BasePhase.apply(BasePhase.java:197)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.apply(Phase.java:42)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.phases.Phase.apply(Phase.java:38)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlowBuilder.parse(MethodTypeFlowBuilder.java:221)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlowBuilder.apply(MethodTypeFlowBuilder.java:340)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.doParse(MethodTypeFlow.java:310)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.ensureParsed(MethodTypeFlow.java:300)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.addContext(MethodTypeFlow.java:107)
+[error]     	at com.oracle.graal.pointsto.flow.SpecialInvokeTypeFlow.onObservedUpdate(InvokeTypeFlow.java:421)
+[error]     	at com.oracle.graal.pointsto.flow.TypeFlow.notifyObservers(TypeFlow.java:343)
+[error]     	at com.oracle.graal.pointsto.flow.TypeFlow.update(TypeFlow.java:385)
+[error]     	at com.oracle.graal.pointsto.BigBang$2.run(BigBang.java:511)
+[error]     	at com.oracle.graal.pointsto.util.CompletionExecutor.lambda$execute$0(CompletionExecutor.java:171)
+[error]     	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+[error]     	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[error]     	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[error]     	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+[error]     Caused by: com.oracle.svm.hosted.substitute.DeletedElementException: Unsupported type java.lang.invoke.MemberName is reachable: All methods from java.lang.invoke should have been replaced during image building.
+[error]     To diagnose the issue, you can add the option --report-unsupported-elements-at-runtime. The unsupported element is then reported at run time when it is accessed the first time.
+[error]     	at com.oracle.svm.hosted.substitute.AnnotationSubstitutionProcessor.lookup(AnnotationSubstitutionProcessor.java:115)
+[error]     	at com.oracle.graal.pointsto.infrastructure.SubstitutionProcessor$ChainedSubstitutionProcessor.lookup(SubstitutionProcessor.java:113)
+[error]     	at com.oracle.graal.pointsto.infrastructure.SubstitutionProcessor$ChainedSubstitutionProcessor.lookup(SubstitutionProcessor.java:113)
+[error]     	at com.oracle.graal.pointsto.meta.AnalysisUniverse.lookupAllowUnresolved(AnalysisUniverse.java:202)
+[error]     	at com.oracle.graal.pointsto.meta.AnalysisUniverse.lookup(AnalysisUniverse.java:182)
+[error]     	at com.oracle.graal.pointsto.meta.AnalysisUniverse.lookup(AnalysisUniverse.java:75)
+[error]     	at com.oracle.graal.pointsto.infrastructure.WrappedSignature.getReturnType(WrappedSignature.java:75)
+[error]     	at com.oracle.graal.pointsto.flow.MethodFlowsGraph.<init>(MethodFlowsGraph.java:113)
+[error]     	at com.oracle.graal.pointsto.flow.MethodTypeFlow.<init>(MethodTypeFlow.java:75)
+[error]     	at com.oracle.graal.pointsto.meta.AnalysisMethod.<init>(AnalysisMethod.java:134)
+[error]     	at com.oracle.graal.pointsto.meta.AnalysisUniverse.createMethod(AnalysisUniverse.java:412)
+[error]     	at com.oracle.graal.pointsto.meta.AnalysisUniverse.lookupAllowUnresolved(AnalysisUniverse.java:400)
+[error]     	at com.oracle.graal.pointsto.infrastructure.WrappedConstantPool.lookupMethod(WrappedConstantPool.java:116)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.lookupMethod(BytecodeParser.java:4168)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.genInvokeVirtual(BytecodeParser.java:1613)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.processBytecode(BytecodeParser.java:5168)
+[error]     	at jdk.internal.vm.compiler/org.graalvm.compiler.java.BytecodeParser.iterateBytecodesForBlock(BytecodeParser.java:3286)
+[error]     	... 24 more
+[error]     
+[error]     Context obj com.oracle.svm.hosted.phases.AnalysisGraphBuilderPhase@7e47f73a
+[error]     Context obj StructuredGraph:723489{AnalysisMethod<MethodHandles$Lookup.findVirtual -> HotSpotMethod<MethodHandles$Lookup.findVirtual(Class, String, MethodType)>>}
+[error]     Context obj AnalysisMethod<MethodHandles$Lookup.findVirtual -> HotSpotMethod<MethodHandles$Lookup.findVirtual(Class, String, MethodType)>>
+[error]     Context obj com.oracle.svm.hosted.analysis.flow.SVMMethodTypeFlowBuilder@2d9604d
+[info] [play-graalvm:75870]   (typeflow):   8,295.55 ms
+[info] [play-graalvm:75870]    (objects):  11,266.27 ms
+[info] [play-graalvm:75870]   (features):     438.21 ms
+[info] [play-graalvm:75870]     analysis:  20,611.01 ms
+[error] Error: Unsupported features in 7 methods
+[error] Detailed message:
+[error] Error: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved method during parsing: org.slf4j.impl.StaticMDCBinder.getSingleton(). To diagnose the issue you can use the --allow-incomplete-classpath option. The missing method is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing org.slf4j.MDC.bwCompatibleGetMDCAdapterFromBinder(MDC.java:99)
+[error] Call path from entry point to org.slf4j.MDC.bwCompatibleGetMDCAdapterFromBinder(): 
+[error] 	no path found from entry point to target method
+[error] Error: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: ch.qos.logback.classic.gaffer.GafferConfigurator. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing ch.qos.logback.classic.gaffer.GafferUtil.runGafferConfiguratorOn(GafferUtil.java:43)
+[error] Call path from entry point to ch.qos.logback.classic.gaffer.GafferUtil.runGafferConfiguratorOn(LoggerContext, Object, URL): 
+[error] 	at ch.qos.logback.classic.gaffer.GafferUtil.runGafferConfiguratorOn(GafferUtil.java:41)
+[error] 	at ch.qos.logback.classic.joran.ReconfigureOnChangeTask.run(ReconfigureOnChangeTask.java:71)
+[error] 	at com.oracle.svm.core.jdk.RuntimeSupport.executeHooks(RuntimeSupport.java:144)
+[error] 	at com.oracle.svm.core.jdk.RuntimeSupport.executeStartupHooks(RuntimeSupport.java:89)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.runCore(JavaMainWrapper.java:143)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.run(JavaMainWrapper.java:186)
+[error] 	at com.oracle.svm.core.code.IsolateEnterStub.JavaMainWrapper_run_5087f5482cc9a6abc971913ece43acb471d2631b(generated:0)
+[error] Error: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: org.codehaus.janino.ClassBodyEvaluator. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing ch.qos.logback.core.joran.conditional.PropertyEvalScriptBuilder.build(PropertyEvalScriptBuilder.java:43)
+[error] Call path from entry point to ch.qos.logback.core.joran.conditional.PropertyEvalScriptBuilder.build(String): 
+[error] 	at ch.qos.logback.core.joran.conditional.PropertyEvalScriptBuilder.build(PropertyEvalScriptBuilder.java:43)
+[error] 	at ch.qos.logback.core.joran.conditional.IfAction.begin(IfAction.java:65)
+[error] 	at ch.qos.logback.core.joran.spi.Interpreter.callBeginAction(Interpreter.java:269)
+[error] 	at ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:145)
+[error] 	at ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:128)
+[error] 	at ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:50)
+[error] 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:165)
+[error] 	at ch.qos.logback.classic.joran.ReconfigureOnChangeTask.fallbackConfiguration(ReconfigureOnChangeTask.java:153)
+[error] 	at ch.qos.logback.classic.joran.ReconfigureOnChangeTask.performXMLConfiguration(ReconfigureOnChangeTask.java:116)
+[error] 	at ch.qos.logback.classic.joran.ReconfigureOnChangeTask.run(ReconfigureOnChangeTask.java:65)
+[error] 	at com.oracle.svm.core.jdk.RuntimeSupport.executeHooks(RuntimeSupport.java:144)
+[error] 	at com.oracle.svm.core.jdk.RuntimeSupport.executeStartupHooks(RuntimeSupport.java:89)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.runCore(JavaMainWrapper.java:143)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.run(JavaMainWrapper.java:186)
+[error] 	at com.oracle.svm.core.code.IsolateEnterStub.JavaMainWrapper_run_5087f5482cc9a6abc971913ece43acb471d2631b(generated:0)
+[error] Error: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: sun.reflect.Reflection. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing ch.qos.logback.classic.spi.PackagingDataCalculator.<clinit>(PackagingDataCalculator.java:45)
+[error] Call path from entry point to ch.qos.logback.classic.spi.PackagingDataCalculator.<clinit>(): 
+[error] 	no path found from entry point to target method
+[error] Error: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: sun.reflect.Reflection. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing ch.qos.logback.classic.spi.PackagingDataCalculator.populateFrames(PackagingDataCalculator.java:85)
+[error] Call path from entry point to ch.qos.logback.classic.spi.PackagingDataCalculator.populateFrames(StackTraceElementProxy[]): 
+[error] 	at ch.qos.logback.classic.spi.PackagingDataCalculator.populateFrames(PackagingDataCalculator.java:72)
+[error] 	at ch.qos.logback.classic.spi.PackagingDataCalculator.calculate(PackagingDataCalculator.java:58)
+[error] 	at ch.qos.logback.classic.spi.ThrowableProxy.calculatePackagingData(ThrowableProxy.java:142)
+[error] 	at ch.qos.logback.classic.spi.LoggingEvent.<init>(LoggingEvent.java:122)
+[error] 	at ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:419)
+[error] 	at ch.qos.logback.classic.Logger.filterAndLog_0_Or3Plus(Logger.java:383)
+[error] 	at ch.qos.logback.classic.Logger.warn(Logger.java:708)
+[error] 	at play.api.LoggerLike.warn(Logger.scala:167)
+[error] 	at play.api.LoggerLike.warn$(Logger.scala:163)
+[error] 	at play.api.Logger.warn(Logger.scala:232)
+[error] 	at play.api.Play$.start(Play.scala:100)
+[error] 	at play.core.server.ProdServerStart$.start(ProdServerStart.scala:55)
+[error] 	at play.core.server.ProdServerStart$.main(ProdServerStart.scala:29)
+[error] 	at play.core.server.ProdServerStart.main(ProdServerStart.scala)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.runCore(JavaMainWrapper.java:151)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.run(JavaMainWrapper.java:186)
+[error] 	at com.oracle.svm.core.code.IsolateEnterStub.JavaMainWrapper_run_5087f5482cc9a6abc971913ece43acb471d2631b(generated:0)
+[error] Error: com.oracle.svm.hosted.substitute.DeletedElementException: Unsupported type java.lang.invoke.MemberName is reachable: All methods from java.lang.invoke should have been replaced during image building.
+[error] To diagnose the issue, you can add the option --report-unsupported-elements-at-runtime. The unsupported element is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing java.lang.invoke.MethodHandles$Lookup.findStatic(MethodHandles.java:1102)
+[error] Call path from entry point to java.lang.invoke.MethodHandles$Lookup.findStatic(Class, String, MethodType): 
+[error] 	no path found from entry point to target method
+[error] Error: com.oracle.svm.hosted.substitute.DeletedElementException: Unsupported type java.lang.invoke.MemberName is reachable: All methods from java.lang.invoke should have been replaced during image building.
+[error] To diagnose the issue, you can add the option --report-unsupported-elements-at-runtime. The unsupported element is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing java.lang.invoke.MethodHandles$Lookup.findVirtual(MethodHandles.java:1194)
+[error] Call path from entry point to java.lang.invoke.MethodHandles$Lookup.findVirtual(Class, String, MethodType): 
+[error] 	no path found from entry point to target method
+[error] com.oracle.svm.core.util.UserError$UserException: Unsupported features in 7 methods
+[error] Detailed message:
+[error] Error: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved method during parsing: org.slf4j.impl.StaticMDCBinder.getSingleton(). To diagnose the issue you can use the --allow-incomplete-classpath option. The missing method is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing org.slf4j.MDC.bwCompatibleGetMDCAdapterFromBinder(MDC.java:99)
+[error] Call path from entry point to org.slf4j.MDC.bwCompatibleGetMDCAdapterFromBinder(): 
+[error] 	no path found from entry point to target method
+[error] Error: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: ch.qos.logback.classic.gaffer.GafferConfigurator. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing ch.qos.logback.classic.gaffer.GafferUtil.runGafferConfiguratorOn(GafferUtil.java:43)
+[error] Call path from entry point to ch.qos.logback.classic.gaffer.GafferUtil.runGafferConfiguratorOn(LoggerContext, Object, URL): 
+[error] 	at ch.qos.logback.classic.gaffer.GafferUtil.runGafferConfiguratorOn(GafferUtil.java:41)
+[error] 	at ch.qos.logback.classic.joran.ReconfigureOnChangeTask.run(ReconfigureOnChangeTask.java:71)
+[error] 	at com.oracle.svm.core.jdk.RuntimeSupport.executeHooks(RuntimeSupport.java:144)
+[error] 	at com.oracle.svm.core.jdk.RuntimeSupport.executeStartupHooks(RuntimeSupport.java:89)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.runCore(JavaMainWrapper.java:143)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.run(JavaMainWrapper.java:186)
+[error] 	at com.oracle.svm.core.code.IsolateEnterStub.JavaMainWrapper_run_5087f5482cc9a6abc971913ece43acb471d2631b(generated:0)
+[error] Error: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: org.codehaus.janino.ClassBodyEvaluator. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing ch.qos.logback.core.joran.conditional.PropertyEvalScriptBuilder.build(PropertyEvalScriptBuilder.java:43)
+[error] Call path from entry point to ch.qos.logback.core.joran.conditional.PropertyEvalScriptBuilder.build(String): 
+[error] 	at ch.qos.logback.core.joran.conditional.PropertyEvalScriptBuilder.build(PropertyEvalScriptBuilder.java:43)
+[error] 	at ch.qos.logback.core.joran.conditional.IfAction.begin(IfAction.java:65)
+[error] 	at ch.qos.logback.core.joran.spi.Interpreter.callBeginAction(Interpreter.java:269)
+[error] 	at ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:145)
+[error] 	at ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:128)
+[error] 	at ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:50)
+[error] 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:165)
+[error] 	at ch.qos.logback.classic.joran.ReconfigureOnChangeTask.fallbackConfiguration(ReconfigureOnChangeTask.java:153)
+[error] 	at ch.qos.logback.classic.joran.ReconfigureOnChangeTask.performXMLConfiguration(ReconfigureOnChangeTask.java:116)
+[error] 	at ch.qos.logback.classic.joran.ReconfigureOnChangeTask.run(ReconfigureOnChangeTask.java:65)
+[error] 	at com.oracle.svm.core.jdk.RuntimeSupport.executeHooks(RuntimeSupport.java:144)
+[error] 	at com.oracle.svm.core.jdk.RuntimeSupport.executeStartupHooks(RuntimeSupport.java:89)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.runCore(JavaMainWrapper.java:143)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.run(JavaMainWrapper.java:186)
+[error] 	at com.oracle.svm.core.code.IsolateEnterStub.JavaMainWrapper_run_5087f5482cc9a6abc971913ece43acb471d2631b(generated:0)
+[error] Error: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: sun.reflect.Reflection. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing ch.qos.logback.classic.spi.PackagingDataCalculator.<clinit>(PackagingDataCalculator.java:45)
+[error] Call path from entry point to ch.qos.logback.classic.spi.PackagingDataCalculator.<clinit>(): 
+[error] 	no path found from entry point to target method
+[error] Error: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: sun.reflect.Reflection. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing ch.qos.logback.classic.spi.PackagingDataCalculator.populateFrames(PackagingDataCalculator.java:85)
+[error] Call path from entry point to ch.qos.logback.classic.spi.PackagingDataCalculator.populateFrames(StackTraceElementProxy[]): 
+[error] 	at ch.qos.logback.classic.spi.PackagingDataCalculator.populateFrames(PackagingDataCalculator.java:72)
+[error] 	at ch.qos.logback.classic.spi.PackagingDataCalculator.calculate(PackagingDataCalculator.java:58)
+[error] 	at ch.qos.logback.classic.spi.ThrowableProxy.calculatePackagingData(ThrowableProxy.java:142)
+[error] 	at ch.qos.logback.classic.spi.LoggingEvent.<init>(LoggingEvent.java:122)
+[error] 	at ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:419)
+[error] 	at ch.qos.logback.classic.Logger.filterAndLog_0_Or3Plus(Logger.java:383)
+[error] 	at ch.qos.logback.classic.Logger.warn(Logger.java:708)
+[error] 	at play.api.LoggerLike.warn(Logger.scala:167)
+[error] 	at play.api.LoggerLike.warn$(Logger.scala:163)
+[error] 	at play.api.Logger.warn(Logger.scala:232)
+[error] 	at play.api.Play$.start(Play.scala:100)
+[error] 	at play.core.server.ProdServerStart$.start(ProdServerStart.scala:55)
+[error] 	at play.core.server.ProdServerStart$.main(ProdServerStart.scala:29)
+[error] 	at play.core.server.ProdServerStart.main(ProdServerStart.scala)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.runCore(JavaMainWrapper.java:151)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.run(JavaMainWrapper.java:186)
+[error] 	at com.oracle.svm.core.code.IsolateEnterStub.JavaMainWrapper_run_5087f5482cc9a6abc971913ece43acb471d2631b(generated:0)
+[error] Error: com.oracle.svm.hosted.substitute.DeletedElementException: Unsupported type java.lang.invoke.MemberName is reachable: All methods from java.lang.invoke should have been replaced during image building.
+[error] To diagnose the issue, you can add the option --report-unsupported-elements-at-runtime. The unsupported element is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing java.lang.invoke.MethodHandles$Lookup.findStatic(MethodHandles.java:1102)
+[error] Call path from entry point to java.lang.invoke.MethodHandles$Lookup.findStatic(Class, String, MethodType): 
+[error] 	no path found from entry point to target method
+[error] Error: com.oracle.svm.hosted.substitute.DeletedElementException: Unsupported type java.lang.invoke.MemberName is reachable: All methods from java.lang.invoke should have been replaced during image building.
+[error] To diagnose the issue, you can add the option --report-unsupported-elements-at-runtime. The unsupported element is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing java.lang.invoke.MethodHandles$Lookup.findVirtual(MethodHandles.java:1194)
+[error] Call path from entry point to java.lang.invoke.MethodHandles$Lookup.findVirtual(Class, String, MethodType): 
+[error] 	no path found from entry point to target method
+[error] 	at com.oracle.svm.core.util.UserError.abort(UserError.java:75)
+[error] 	at com.oracle.svm.hosted.FallbackFeature.reportAsFallback(FallbackFeature.java:221)
+[error] 	at com.oracle.svm.hosted.NativeImageGenerator.runPointsToAnalysis(NativeImageGenerator.java:736)
+[error] 	at com.oracle.svm.hosted.NativeImageGenerator.doRun(NativeImageGenerator.java:530)
+[error] 	at com.oracle.svm.hosted.NativeImageGenerator.lambda$run$0(NativeImageGenerator.java:445)
+[error] 	at java.base/java.util.concurrent.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1407)
+[error] 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[error] 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[error] 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[error] 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[error] 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+[error] Caused by: com.oracle.graal.pointsto.constraints.UnsupportedFeatureException: Unsupported features in 7 methods
+[error] Detailed message:
+[error] Error: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved method during parsing: org.slf4j.impl.StaticMDCBinder.getSingleton(). To diagnose the issue you can use the --allow-incomplete-classpath option. The missing method is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing org.slf4j.MDC.bwCompatibleGetMDCAdapterFromBinder(MDC.java:99)
+[error] Call path from entry point to org.slf4j.MDC.bwCompatibleGetMDCAdapterFromBinder(): 
+[error] 	no path found from entry point to target method
+[error] Error: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: ch.qos.logback.classic.gaffer.GafferConfigurator. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing ch.qos.logback.classic.gaffer.GafferUtil.runGafferConfiguratorOn(GafferUtil.java:43)
+[error] Call path from entry point to ch.qos.logback.classic.gaffer.GafferUtil.runGafferConfiguratorOn(LoggerContext, Object, URL): 
+[error] 	at ch.qos.logback.classic.gaffer.GafferUtil.runGafferConfiguratorOn(GafferUtil.java:41)
+[error] 	at ch.qos.logback.classic.joran.ReconfigureOnChangeTask.run(ReconfigureOnChangeTask.java:71)
+[error] 	at com.oracle.svm.core.jdk.RuntimeSupport.executeHooks(RuntimeSupport.java:144)
+[error] 	at com.oracle.svm.core.jdk.RuntimeSupport.executeStartupHooks(RuntimeSupport.java:89)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.runCore(JavaMainWrapper.java:143)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.run(JavaMainWrapper.java:186)
+[error] 	at com.oracle.svm.core.code.IsolateEnterStub.JavaMainWrapper_run_5087f5482cc9a6abc971913ece43acb471d2631b(generated:0)
+[error] Error: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: org.codehaus.janino.ClassBodyEvaluator. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing ch.qos.logback.core.joran.conditional.PropertyEvalScriptBuilder.build(PropertyEvalScriptBuilder.java:43)
+[error] Call path from entry point to ch.qos.logback.core.joran.conditional.PropertyEvalScriptBuilder.build(String): 
+[error] 	at ch.qos.logback.core.joran.conditional.PropertyEvalScriptBuilder.build(PropertyEvalScriptBuilder.java:43)
+[error] 	at ch.qos.logback.core.joran.conditional.IfAction.begin(IfAction.java:65)
+[error] 	at ch.qos.logback.core.joran.spi.Interpreter.callBeginAction(Interpreter.java:269)
+[error] 	at ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:145)
+[error] 	at ch.qos.logback.core.joran.spi.Interpreter.startElement(Interpreter.java:128)
+[error] 	at ch.qos.logback.core.joran.spi.EventPlayer.play(EventPlayer.java:50)
+[error] 	at ch.qos.logback.core.joran.GenericConfigurator.doConfigure(GenericConfigurator.java:165)
+[error] 	at ch.qos.logback.classic.joran.ReconfigureOnChangeTask.fallbackConfiguration(ReconfigureOnChangeTask.java:153)
+[error] 	at ch.qos.logback.classic.joran.ReconfigureOnChangeTask.performXMLConfiguration(ReconfigureOnChangeTask.java:116)
+[error] 	at ch.qos.logback.classic.joran.ReconfigureOnChangeTask.run(ReconfigureOnChangeTask.java:65)
+[error] 	at com.oracle.svm.core.jdk.RuntimeSupport.executeHooks(RuntimeSupport.java:144)
+[error] 	at com.oracle.svm.core.jdk.RuntimeSupport.executeStartupHooks(RuntimeSupport.java:89)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.runCore(JavaMainWrapper.java:143)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.run(JavaMainWrapper.java:186)
+[error] 	at com.oracle.svm.core.code.IsolateEnterStub.JavaMainWrapper_run_5087f5482cc9a6abc971913ece43acb471d2631b(generated:0)
+[error] Error: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: sun.reflect.Reflection. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing ch.qos.logback.classic.spi.PackagingDataCalculator.<clinit>(PackagingDataCalculator.java:45)
+[error] Call path from entry point to ch.qos.logback.classic.spi.PackagingDataCalculator.<clinit>(): 
+[error] 	no path found from entry point to target method
+[error] Error: com.oracle.graal.pointsto.constraints.UnresolvedElementException: Discovered unresolved type during parsing: sun.reflect.Reflection. To diagnose the issue you can use the --allow-incomplete-classpath option. The missing type is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing ch.qos.logback.classic.spi.PackagingDataCalculator.populateFrames(PackagingDataCalculator.java:85)
+[error] Call path from entry point to ch.qos.logback.classic.spi.PackagingDataCalculator.populateFrames(StackTraceElementProxy[]): 
+[error] 	at ch.qos.logback.classic.spi.PackagingDataCalculator.populateFrames(PackagingDataCalculator.java:72)
+[error] 	at ch.qos.logback.classic.spi.PackagingDataCalculator.calculate(PackagingDataCalculator.java:58)
+[error] 	at ch.qos.logback.classic.spi.ThrowableProxy.calculatePackagingData(ThrowableProxy.java:142)
+[error] 	at ch.qos.logback.classic.spi.LoggingEvent.<init>(LoggingEvent.java:122)
+[error] 	at ch.qos.logback.classic.Logger.buildLoggingEventAndAppend(Logger.java:419)
+[error] 	at ch.qos.logback.classic.Logger.filterAndLog_0_Or3Plus(Logger.java:383)
+[error] 	at ch.qos.logback.classic.Logger.warn(Logger.java:708)
+[error] 	at play.api.LoggerLike.warn(Logger.scala:167)
+[error] 	at play.api.LoggerLike.warn$(Logger.scala:163)
+[error] 	at play.api.Logger.warn(Logger.scala:232)
+[error] 	at play.api.Play$.start(Play.scala:100)
+[error] 	at play.core.server.ProdServerStart$.start(ProdServerStart.scala:55)
+[error] 	at play.core.server.ProdServerStart$.main(ProdServerStart.scala:29)
+[error] 	at play.core.server.ProdServerStart.main(ProdServerStart.scala)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.runCore(JavaMainWrapper.java:151)
+[error] 	at com.oracle.svm.core.JavaMainWrapper.run(JavaMainWrapper.java:186)
+[error] 	at com.oracle.svm.core.code.IsolateEnterStub.JavaMainWrapper_run_5087f5482cc9a6abc971913ece43acb471d2631b(generated:0)
+[error] Error: com.oracle.svm.hosted.substitute.DeletedElementException: Unsupported type java.lang.invoke.MemberName is reachable: All methods from java.lang.invoke should have been replaced during image building.
+[error] To diagnose the issue, you can add the option --report-unsupported-elements-at-runtime. The unsupported element is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing java.lang.invoke.MethodHandles$Lookup.findStatic(MethodHandles.java:1102)
+[error] Call path from entry point to java.lang.invoke.MethodHandles$Lookup.findStatic(Class, String, MethodType): 
+[error] 	no path found from entry point to target method
+[error] Error: com.oracle.svm.hosted.substitute.DeletedElementException: Unsupported type java.lang.invoke.MemberName is reachable: All methods from java.lang.invoke should have been replaced during image building.
+[error] To diagnose the issue, you can add the option --report-unsupported-elements-at-runtime. The unsupported element is then reported at run time when it is accessed the first time.
+[error] Trace: 
+[error] 	at parsing java.lang.invoke.MethodHandles$Lookup.findVirtual(MethodHandles.java:1194)
+[error] Call path from entry point to java.lang.invoke.MethodHandles$Lookup.findVirtual(Class, String, MethodType): 
+[error] 	no path found from entry point to target method
+[error] 	at com.oracle.graal.pointsto.constraints.UnsupportedFeatures.report(UnsupportedFeatures.java:129)
+[error] 	at com.oracle.svm.hosted.NativeImageGenerator.runPointsToAnalysis(NativeImageGenerator.java:733)
+[error] 	... 8 more
+[error] Error: Image build request failed with exit status 1
+[error] com.oracle.svm.driver.NativeImage$NativeImageError: Image build request failed with exit status 1
+[error] 	at com.oracle.svm.driver.NativeImage.showError(NativeImage.java:1482)
+[error] 	at com.oracle.svm.driver.NativeImage.build(NativeImage.java:1260)
+[error] 	at com.oracle.svm.driver.NativeImage.performBuild(NativeImage.java:1222)
+[error] 	at com.oracle.svm.driver.NativeImage.main(NativeImage.java:1181)
+[error] 	at com.oracle.svm.driver.NativeImage$JDK9Plus.main(NativeImage.java:1665)
+[error] java.lang.RuntimeException: Failed to run List(native-image, --class-path, /Users/marcospereira/Lightbend/playframework/play-graalvm/target/scala-2.13/play-graalvm_2.13-1.0-SNAPSHOT-sans-externalized.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.1/akka-stream_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.13/2.3.3/macros_2.13-2.3.3.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.0/play_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.1/jackson-module-parameter-names-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.0/play-streams_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.1/akka-protobuf-v3_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.1/jackson-module-paranamer-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.11/akka-http-core_2.13-10.1.11.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.0/play-server_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.1/akka-actor-typed_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.0/play-exceptions-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.1/akka-slf4j_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.0/build-link-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.0/play-akka-http-server_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.1/ssl-config-core_2.13-0.4.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.1/jackson-module-scala_2.13-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.0/play-logback_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.1/play-functional_2.13-2.8.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.1/akka-actor_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.1/akka-serialization-jackson_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.0/filters-helpers_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.1/jackson-dataformat-cbor-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.1/play-json_2.13-2.8.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.11/akka-parsing_2.13-10.1.11.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/marcospereira/Lightbend/playframework/play-graalvm/target/scala-2.13/play-graalvm_2.13-1.0-SNAPSHOT-web-assets.jar:/Users/marcospereira/Lightbend/playframework/play-graalvm/target/scala-2.13/play-graalvm_2.13-1.0-SNAPSHOT.jar, -H:Name=play-graalvm, --verbose, --no-fallback, -H:+ReportExceptionStackTraces, -H:Log=registerResource:verbose, -H:ResourceConfigurationFiles=/Users/marcospereira/Lightbend/playframework/play-graalvm/conf/graal/resource-config.json, play.core.server.ProdServerStart), exit status: 1
+[error] 	at scala.sys.package$.error(package.scala:30)
+[error] 	at com.typesafe.sbt.packager.graalvmnativeimage.GraalVMNativeImagePlugin$.buildLocal(GraalVMNativeImagePlugin.scala:104)
+[error] 	at com.typesafe.sbt.packager.graalvmnativeimage.GraalVMNativeImagePlugin$.$anonfun$scopedSettings$7(GraalVMNativeImagePlugin.scala:68)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:67)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:281)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:19)
+[error] 	at sbt.Execute.work(Execute.scala:290)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:281)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:178)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:834)
+[error] (Graalvm-native-image / packageBin) Failed to run List(native-image, --class-path, /Users/marcospereira/Lightbend/playframework/play-graalvm/target/scala-2.13/play-graalvm_2.13-1.0-SNAPSHOT-sans-externalized.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.2.0/scala-xml_2.13-1.2.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.0/config-1.4.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-stream_2.13/2.6.1/akka-stream_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-java8-compat_2.13/0.9.0/scala-java8-compat_2.13-0.9.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.13/2.3.3/macros_2.13-2.3.3.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.29/slf4j-api-1.7.29.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play_2.13/2.8.0/play_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.1/scala-library-2.13.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/twirl-api_2.13/1.5.0/twirl-api_2.13-1.5.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.10.1/jackson-module-parameter-names-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-streams_2.13/2.8.0/play-streams_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.13/1.1.2/scala-parser-combinators_2.13-1.1.2.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-protobuf-v3_2.13/2.6.1/akka-protobuf-v3_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-paranamer/2.10.1/jackson-module-paranamer-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-http-core_2.13/10.1.11/akka-http-core_2.13-10.1.11.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-server_2.13/2.8.0/play-server_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor-typed_2.13/2.6.1/akka-actor-typed_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.10.1/jackson-core-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-exceptions/2.8.0/play-exceptions-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.13/2.6.1/akka-slf4j_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.10.1/jackson-annotations-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/build-link/2.8.0/build-link-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.10.0/protobuf-java-3.10.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.10.1/jackson-datatype-jdk8-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.29/jcl-over-slf4j-1.7.29.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-akka-http-server_2.13/2.8.0/play-akka-http-server_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.13/0.4.1/ssl-config-core_2.13-0.4.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-scala_2.13/2.10.1/jackson-module-scala_2.13-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-logback_2.13/2.8.0/play-logback_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-functional_2.13/2.8.1/play-functional_2.13-2.8.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.1/jackson-databind-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/slf4j/jul-to-slf4j/1.7.29/jul-to-slf4j-1.7.29.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.13/2.6.1/akka-actor_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-serialization-jackson_2.13/2.6.1/akka-serialization-jackson_2.13-2.6.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/filters-helpers_2.13/2.8.0/filters-helpers_2.13-2.8.0.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.1/scala-reflect-2.13.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.10.1/jackson-dataformat-cbor-2.10.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/play/play-json_2.13/2.8.1/play-json_2.13-2.8.1.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/com/typesafe/akka/akka-parsing_2.13/10.1.11/akka-parsing_2.13-10.1.11.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/Users/marcospereira/.coursier/cache/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/marcospereira/Lightbend/playframework/play-graalvm/target/scala-2.13/play-graalvm_2.13-1.0-SNAPSHOT-web-assets.jar:/Users/marcospereira/Lightbend/playframework/play-graalvm/target/scala-2.13/play-graalvm_2.13-1.0-SNAPSHOT.jar, -H:Name=play-graalvm, --verbose, --no-fallback, -H:+ReportExceptionStackTraces, -H:Log=registerResource:verbose, -H:ResourceConfigurationFiles=/Users/marcospereira/Lightbend/playframework/play-graalvm/conf/graal/resource-config.json, play.core.server.ProdServerStart), exit status: 1
+[error] Total time: 41 s, completed Jan. 14, 2020, 5:05:08 p.m.

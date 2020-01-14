@@ -11,6 +11,7 @@ val graalSettings = Seq(
     },
     graalVMNativeImageOptions ++= Seq(
         "--verbose",
+        "--no-fallback",
         "-H:+ReportExceptionStackTraces",
         "-H:Log=registerResource:verbose", // log which resources get included into the image
         "-H:ResourceConfigurationFiles=" + graalResourcesConfiguration.value.getAbsolutePath,
