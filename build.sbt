@@ -24,7 +24,10 @@ lazy val root = (project in file("."))
         organization := "com.lightbend.play",
         version := "1.0-SNAPSHOT",
         scalaVersion := "2.13.1",
-        libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
+        libraryDependencies ++= Seq(
+            "com.softwaremill.macwire" %% "macros" % "2.3.3",
+            "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
+        )
     )
     .enablePlugins(GraalVMNativeImagePlugin)
     .settings(graalSettings)
