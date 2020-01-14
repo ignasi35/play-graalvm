@@ -7,3 +7,10 @@ lazy val root = (project in file("."))
         scalaVersion := "2.13.1",
         libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
     )
+    .enablePlugins(GraalVMNativeImagePlugin)
+    .settings(
+        graalVMNativeImageOptions ++= Seq(
+            "--verbose",
+            "-H:+ReportExceptionStackTraces",
+        )
+    )
