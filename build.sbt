@@ -1,3 +1,22 @@
+val graalConfigurationDirectory = settingKey[File]("The directory where Graal configuration lives")
+val graalResourcesConfiguration = settingKey[File]("The file for Graal's resource-config.json")
+
+val graalSettings = Seq(
+    graalConfigurationDirectory := (Compile / resourceDirectory).value / "graal",
+    graalResourcesConfiguration := graalConfigurationDirectory.value / "resource-config.json",
+    // Application jar was not automatically included in the classpath
+    scriptClasspathOrdering += {
+        val jarFile = (Compile / packageBin / artifactPath).value
+        jarFile -> ("lib/" + jarFile.getName)
+    },
+    graalVMNativeImageOptions ++= Seq(
+        "--verbose",
+        "-H:+ReportExceptionStackTraces",
+        "-H:Log=registerResource:verbose", // log which resources get included into the image
+        "-H:ResourceConfigurationFiles=" + graalResourcesConfiguration.value.getAbsolutePath,
+    ),
+)
+
 lazy val root = (project in file("."))
     .enablePlugins(PlayScala)
     .settings(
@@ -8,9 +27,4 @@ lazy val root = (project in file("."))
         libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
     )
     .enablePlugins(GraalVMNativeImagePlugin)
-    .settings(
-        graalVMNativeImageOptions ++= Seq(
-            "--verbose",
-            "-H:+ReportExceptionStackTraces",
-        )
-    )
+    .settings(graalSettings)
