@@ -2,13 +2,18 @@
   "resources":[
     {"pattern":"META-INF/MANIFEST.MF"},
     {"pattern":"akka-http-version.conf"},
+    {"pattern":"application.conf"},
+    {"pattern":"com/fasterxml/jackson/module/scala/build.properties"},
     {"pattern":"in-memory.conf"},
     {"pattern":"library.properties"},
-    {"pattern":"org/slf4j/impl/StaticLoggerBinder.class"},
-    {"pattern":"reference.conf"},
-    {"pattern":"application.conf"},
     {"pattern":"logback.xml"},
+    {"pattern":"logger-configurator.properties"},
     {"pattern":"message"},
+    {"pattern":"messages"},
+    {"pattern":"messages.default"},
+    {"pattern":"org/slf4j/impl/StaticLoggerBinder.class"},
+    {"pattern":"play/reference-overrides.conf"},
+    {"pattern":"reference.conf"},
     {"pattern":"simplelogger.properties"},
     {"pattern":"version.conf"}
   ]

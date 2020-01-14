@@ -13,6 +13,7 @@ val graalSettings = Seq(
         "--verbose",
         "--no-fallback",
         "--allow-incomplete-classpath",
+        "--report-unsupported-elements-at-runtime",
         "-H:+ReportExceptionStackTraces",
         "-H:Log=registerResource:verbose", // log which resources get included into the image
         "-H:ResourceConfigurationFiles=" + graalResourcesConfiguration.value.getAbsolutePath,
@@ -28,8 +29,12 @@ lazy val root = (project in file("."))
         scalaVersion := "2.13.1",
         libraryDependencies ++= Seq(
             "com.softwaremill.macwire" %% "macros" % "2.3.3",
+            "org.slf4j" % "slf4j-jdk14" % "1.7.30",
             "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
-        )
+        ),
+        excludeDependencies ++= Seq(
+            ExclusionRule("ch.qos.logback", "logback-classic")
+        ),
     )
     .enablePlugins(GraalVMNativeImagePlugin)
     .settings(graalSettings)
