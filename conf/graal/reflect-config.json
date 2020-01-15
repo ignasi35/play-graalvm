@@ -310,53 +310,6 @@
   "name":"akka.util.ByteString$ByteStrings"
 },
 {
-  "name":"ch.qos.logback.classic.AsyncAppender",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"ch.qos.logback.classic.encoder.PatternLayoutEncoder",
-  "allPublicMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"ch.qos.logback.classic.pattern.DateConverter",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"ch.qos.logback.classic.pattern.ExtendedThrowableProxyConverter",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"ch.qos.logback.classic.pattern.LevelConverter",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"ch.qos.logback.classic.pattern.LineSeparatorConverter",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"ch.qos.logback.classic.pattern.LoggerConverter",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"ch.qos.logback.classic.pattern.MessageConverter",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"ch.qos.logback.classic.pattern.ThreadConverter",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"ch.qos.logback.core.ConsoleAppender",
-  "allPublicMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"ch.qos.logback.core.FileAppender",
-  "allPublicMethods":true,
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
   "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
@@ -408,18 +361,7 @@
   "name":"java.lang.invoke.VarHandle"
 },
 {
-  "name":"javax.management.ObjectName"
-},
-{
   "name":"loaders.AppLoader",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"play.api.libs.logback.ColoredLevel",
-  "methods":[{"name":"<init>","parameterTypes":[] }]
-},
-{
-  "name":"play.api.libs.logback.LogbackLoggerConfigurator",
   "methods":[{"name":"<init>","parameterTypes":[] }]
 },
 {

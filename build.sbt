@@ -12,7 +12,8 @@ val graalSettings = Seq(
     graalVMNativeImageOptions ++= Seq(
         "--verbose",
         "--no-fallback",
-        "--allow-incomplete-classpath",
+        "--initialize-at-build-time=loaders.AppLoader",
+        // "--allow-incomplete-classpath",
         "--report-unsupported-elements-at-runtime",
         "-H:+ReportExceptionStackTraces",
         "-H:Log=registerResource:verbose", // log which resources get included into the image
