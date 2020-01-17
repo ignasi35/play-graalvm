@@ -4,15 +4,11 @@ import play.api.ApplicationLoader
 import play.api.Application
 import play.api.BuiltInComponentsFromContext
 import play.api.ApplicationLoader.Context
-import play.api.mvc.EssentialFilter
 import play.filters.HttpFiltersComponents
-import play.api.LoggerConfigurator
 import play.api.routing.Router
-
 import com.softwaremill.macwire._
 import controllers.AssetsComponents
 import controllers.HomeController
-
 import router.Routes
 
 class AppLoader extends ApplicationLoader {
