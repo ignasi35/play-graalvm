@@ -14,7 +14,6 @@ val graalSettings = Seq(
     graalVMNativeImageOptions ++= Seq(
         "--verbose",
         "--no-fallback",
-        "--initialize-at-build-time=loaders.AppLoader",
         "--allow-incomplete-classpath",
         "--report-unsupported-elements-at-runtime",
         "-H:+ReportExceptionStackTraces",
